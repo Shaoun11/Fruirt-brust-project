@@ -152,8 +152,90 @@
     </header>
     <main class="container mx-auto">
         <section class="my-28">
+            <div class="flex justify-between">
+            <div>
             <h2 class="text-5xl font-extrabold">Deal of the day</h2>
-            <p></p>
+            <p class="text-base font-medium mt-3 text-[#0C0C0C99]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        <div class="flex gap-5">
+        <div>
+            <p class="text-5xl font-extrabold">25 :</p>
+            <span class="text-sm">Days</span>
+        </div>
+        
+        <div>
+            <p class="text-5xl font-extrabold">15  :</p>
+            <span class="text-sm">Hours</span>
+        </div>
+        
+        <div>
+            <p class="text-5xl font-extrabold">25  :</p>
+            <span class="text-sm">Minutes</span>
+        </div>
+        
+        <div>
+            <p class="text-5xl font-extrabold">08</p>
+            <span class="text-sm">Second</span>
+        </div>
+    </div>
+    </div>
+    <div>
+        <div class="card w-96 p-16 bg-base-100 shadow-xl mt-24">
+            <figure><img src="/images/fruit6.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="text-xl font-bold text-center">12.90$ - 18.85$</h2>
+              <hr style="width: 70%; margin-left: auto; margin-right: auto;">
+             <h2 class="text-base font-semibold text-center text-[#0C0C0C99]">Apples</h2>
+            </div>
+            <div class="rating rating-base flex justify-center -ml-8 -mt-5 rating-half">
+                <input type="radio" name="rating-10" class="rating-hidden" />
+                <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-1" checked />
+                <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-2" />
+              </div>
+             <!-- Open the modal using ID.showModal() method -->
+<button class="text-red-500 mt-3" onclick="my_modal_1.showModal()">Details</button>
+<dialog id="my_modal_1" class="modal">
+  <form method="dialog" class="modal-box">
+    <figure><img src="/images/fruit6.png" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="text-xl font-bold text-center">12.90$ - 18.85$</h2>
+     <h2 class="text-base font-semibold text-center text-[#0C0C0C99]">Apples are considered nutrient-dense fruits, meaning they provide a lot of nutrients per serving.</h2>
+    </div>
+    <div class="rating rating-base flex justify-center -ml-8 -mt-5 rating-half">
+        <input type="radio" name="rating-10" class="rating-hidden" />
+        <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-1" checked />
+        <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-orange-500  mask mask-star-2 mask-half-2" />
+      </div>
+      <!-- if there is a button in form, it will close the modal -->
+     <div class="mt-8 ml-32 space-x-6">
+        <button class="btn btn-info bg-red-500 border-none text-white ">Close</button>
+        <button class="btn ghost bg-red-500 text-white ">Buy Now</button>
+     </div>
+    </div>
+  </form>
+</dialog>
+
+          </div>
+          
+          
+    </div>
+
         </section>
     </main>
   </body>
