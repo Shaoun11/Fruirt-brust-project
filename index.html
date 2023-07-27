@@ -78,17 +78,19 @@
         </div>
       </nav>
       <!--This is header section-->
-      <section class="py-14 md:ml-80 lg:ml-0">
-        <div class="carousel w-full">
+      <section class="py-14 md:ml-80 lg:ml-0 ">
+        
+        <div class="carousel w-full hero-overlay ">
             <div id="slide1" class="carousel-item relative w-full">
-              <img src="./images/banner1.png" class="w-full" />
+              <img src="./images/banner1.png" class="w-full " />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide4" class="btn btn-circle">❮</a> 
                 <a href="#slide2" class="btn btn-circle">❯</a>
               </div>
             </div> 
-            <div id="slide2" class="carousel-item relative w-full">
-              <img src="./images/banner2.png" class="w-full" />
+            <div id="slide2" class="carousel-item relative  w-full">
+     
+              <img src="./images/banner2.png" class="w-full " />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" class="btn btn-circle">❮</a> 
                 <a href="#slide3" class="btn btn-circle">❯</a>
@@ -119,7 +121,7 @@
             <button class="btn lg:ml-80 ml-32 lg:mt-5 mt-2 bg-[#F85559] border-none text-white btn-ghost">Show Now</button>
           </div>
           <!--this is card-->
-          <div class="invisible  lg:visible lg:grid lg:grid-cols-5 lg:ml-52 lg:px-14 lg:py-3 lg:bg-[#ffffff] lg:absolute lg:-mt-24">
+          <div class="hidden lg:visible lg:grid lg:grid-cols-5 lg:ml-52 lg:px-14 lg:py-3 lg:bg-[#ffffff] lg:absolute lg:-mt-24">
             <div>
                 <img src="./images/fruit1.png" alt="">
                 <h2>Grape</h2>
@@ -144,13 +146,13 @@
       </section>
     </header>
     <main class="container mx-auto">
-        <section class="lg:my-28 my-6 md:ml-80 lg:ml-0">
+        <section class="lg:my-28 my-6 ml-4 md:ml-80 lg:ml-0">
             <div class="lg:flex lg:justify-between">
             <div>
             <h2 class="text-5xl font-extrabold">Deal of the day</h2>
             <p class="text-base font-medium mt-3 text-[#0C0C0C99]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
-        <div class="flex gap-5">
+        <div class="flex gap-5 mt-10 ml-6">
         <div>
             <p class="text-5xl font-extrabold">25 :</p>
             <span class="text-sm">Days</span>
@@ -394,71 +396,62 @@
     <button class="btn ghost bg-red-500 text-white  ">Buy Now</button>
     </div>
         </section>
-        <section class="lg:my-40">
-            <div >
-              <div class="lg:ml-0 md:ml-80">
-                <div>
-                    <img src="images/banner1.png" class="w-full">
-                    
-                    
-                </div>
-                <div class="lg:-mt-96 -mt-32  text-white">
-                    <h2 class="lg:text-7xl text-2xl mb-5 font-extrabold text-center">
-                        Meet the team section
-                    </h2>
-                    <p class="lg:text-base text-sm lg:font-medium font-extralight text-center">
-                        Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.
-                    </p>
+       <!--This is Team section-->
+        <section class="">
+          <div class=" m-5">
+            <div class="hero lg:min-h-screen rounded-2xl" style="background-image: url(./images/team.png);">
+              <div class="hero-overlay bg-opacity-60"></div>
+              <div class="hero-content text-center text-neutral-content">
+                <div class="space-y-4 -mt-[1100px] lg:-mt-96 ">
+                  <h1 class=" lg:text-5xl lg:font-Extrabold text-3xl font-bold text-white">Meet the team </h1>
+                  <p class="text-xs text-white font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
               </div>
-                <div class="lg:flex md:ml-80 md:ml-0 grid lg:flex-row bg-orange-100 gap-12 mt-6 justify-center ">
-                  
-                
-                    <div class="lg:text-white ">
-                        <img src="./images/member1.png" class="w-28" alt="">
-                        <h2 class="text-xl font-bold">Awlad Hossain</h2>
-                        <p class="text-base font-medium">Fruit Expert</p>
-                        <div class="flex gap-4">
-                            <div><i class="fa-brands fa-facebook" style="color: #ff6060;"></i></div>
-                            <div><i class="fa-brands fa-twitter" style="color: #fd4e4e;"></i></div>
-                            <div><i class="fa-brands fa-linkedin" style="color: #fc6363;"></i></div>
-                        </div>
-                    </div>
-                    <div>
-                         <div class="lg:text-white ">
-                        <img src="./images/member2.png" class="w-28" alt="">
-                        <h2 class="text-xl font-bold">Safia Chowdhury</h2>
-                        <p class="text-base font-medium">Fruit Expert</p>
-                        <div class="flex gap-4">
-                            <div><i class="fa-brands fa-facebook" style="color: #ff6060;"></i></div>
-                            <div><i class="fa-brands fa-twitter" style="color: #fd4e4e;"></i></div>
-                            <div><i class="fa-brands fa-linkedin" style="color: #fc6363;"></i></div>
-                        </div>
-                    </div>
-                </div>
-                    <div> <div class="lg:text-white ">
-                        <img src="./images/member3.png" class="w-28" alt="">
-                        <h2 class="text-xl font-bold">Rokib Hossain</h2>
-                        <p class="text-base font-medium">Fruit Expert</p>
-                        <div class="flex gap-4">
-                            <div><i class="fa-brands fa-facebook" style="color: #ff6060;"></i></div>
-                            <div><i class="fa-brands fa-twitter" style="color: #fd4e4e;"></i></div>
-                            <div><i class="fa-brands fa-linkedin" style="color: #fc6363;"></i></div>
-                        </div>
-                    </div></div>
-                    <div> <div class="lg:text-white ">
-                        <img src="./images/member4.png" class="w-28" alt="">
-                        <h2 class="text-xl font-bold">Chaity</h2>
-                        <p class="text-base font-medium">Fruit Expert</p>
-                        <div class="flex gap-4">
-                            <div><i class="fa-brands fa-facebook" style="color: #ff6060;"></i></div>
-                            <div><i class="fa-brands fa-twitter" style="color: #fd4e4e;"></i></div>
-                            <div><i class="fa-brands fa-linkedin" style="color: #fc6363;"></i></div>
-                        </div>
-                    </div></div>
+                 <!-- fruit expert section -->
+                 <div class="flex gap-20 lg:gap-24 flex-col md:flex-col-2 lg:flex-row justify-center items-center text-center text-white pt-52 pb-5 lg:pt-0">
+                  <div class="">
+                    <img src="./images/member1.png" alt="">
+                    <h4 class="text-lg font-medium">Awlad Hossain</h4>
+                    <p>Fruits Expert</p>
+                    <div class="flex gap-4 ml-6">
+                      <div><i class="fa-brands fa-facebook" style="color: #ff6060;"></i></div>
+                      <div><i class="fa-brands fa-twitter" style="color: #fd4e4e;"></i></div>
+                      <div><i class="fa-brands fa-linkedin" style="color: #fc6363;"></i></div>
+                  </div>
+                  </div>
+                  <div class="">
+                    <img src="./images/member2.png" alt="">
+                    <h4 class="text-lg font-medium">Safia Chowdhury</h4>
+                    <p>Fruits Expert</p>
+                    <div class="flex gap-4 ml-6">
+                      <div><i class="fa-brands fa-facebook" style="color: #ff6060;"></i></div>
+                      <div><i class="fa-brands fa-twitter" style="color: #fd4e4e;"></i></div>
+                      <div><i class="fa-brands fa-linkedin" style="color: #fc6363;"></i></div>
+                  </div>
+                  </div>
+                  <div>
+                    <img src="./images/member3.png" alt="">
+                    <h4 class="text-lg font-medium">Rokib Hossain</h4>
+                    <p>Fruits Expert</p>
+                    <div class="flex gap-4 ml-6">
+                      <div><i class="fa-brands fa-facebook" style="color: #ff6060;"></i></div>
+                      <div><i class="fa-brands fa-twitter" style="color: #fd4e4e;"></i></div>
+                      <div><i class="fa-brands fa-linkedin" style="color: #fc6363;"></i></div>
+                  </div>
+                  </div>
+                  <div>
+                    <img src="./images/member4.png" alt="">
+                    <h4 class="text-lg font-medium">Chaity</h4>
+                    <p>Fruits Expert</p>
+                    <div class="flex gap-4 ml-6">
+                      <div><i class="fa-brands fa-facebook" style="color: #ff6060;"></i></div>
+                      <div><i class="fa-brands fa-twitter" style="color: #fd4e4e;"></i></div>
+                      <div><i class="fa-brands fa-linkedin" style="color: #fc6363;"></i></div>
+                  </div>
+                  </div>
                 </div>
             </div>
-           
+          </div>
         </section>
         <!--This is why choice section-->
         <section class="lg:my-24 ">
